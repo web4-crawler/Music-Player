@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="arjit.css">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="main">
+
+
+        <nav class="item" class="navbar" id="navbar">
+            <div class="name">
+                <span>ITUNES</span>
+                <div class="search">
+
+                    <i class="bi bi-search"></i>
+                    <input type="search" value="Search" id="search-bar">
+                </div>
+                <div class="profile">
+                    My Profile >
+                </div>
+                <div class="profile-img">
+                    IMG
+                </div>
+            </div>
+        </nav>
+
+        <div class="mid">
+            <div  class="left" id="left-side">
+                <div class="left" id="left-top">
+                    <h4><i class="bi bi-house"></i> Home</h4>
+                </div>
+                <div class="left" id="left-center">
+
+                    <h3 class="your">Your music</h3>
+                    <h4> <i class="bi bi-heart"></i> Favourites</h4>
+                    <h4> <i class="bi bi-clock"></i> Listen Later</h4>
+                    <h4> <i class="bi bi-calendar3"></i> History</h4>
+                    <h4 class="colour"> <i class="bi bi-music-note-list"></i> Playlist</h4>
+                </div>
+                <div class="left" id="left-bottom">
+
+                    <h3 class="your"> YOUR PLAYLISTS</h3>
+                    <h4> <i class="bi bi-dot"></i> Metelcore </h4>
+                    <h4> <i class="bi bi-dot"></i> Punk </h4>
+                    <h4> <i class="bi bi-dot"></i> Jass </h4>
+                    <h4 id="create-playlist">Create a new Palylist + </h4>
+
+                </div>
+                <div class="overflow" id="over_fav">
+
+                    <div class="images">
+                        <div class="audio-image image-right">
+                            <img src="/img/arjit/1.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill" id="1"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Faded
+                            </div>
+                            <div class="singer" id="singer">
+                                Alan walker
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <div class="audio-image image-right">
+                            <img src="/img/arjit/2.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill" id="2"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Faded
+                            </div>
+                            <div class="singer" id="singer">
+                                Alan walker
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <div class="audio-image image-right">
+                            <img src="/img/arjit/3.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill" id="3"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Faded
+                            </div>
+                            <div class="singer" id="singer">
+                                Alan walker
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <div class="audio-image image-right">
+                            <img src="/img/arjit/4.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill" id="4"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Faded
+                            </div>
+                            <div class="singer" id="singer">
+                                Alan walker
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <div class="audio-image image-right">
+                            <img src="/img/arjit/7.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill" id="7"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Faded
+                            </div>
+                            <div class="singer" id="singer">
+                                Alan walker
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <div class="audio-image image-right">
+                            <img src="/img/arjit/6.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill" id="6"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Faded
+                            </div>
+                            <div class="singer" id="singer">
+                                Alan walker
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+            <div class="item" class="center-side" id="center-side">
+
+                <div class="center-top">
+                    <div class="information">
+                        <div class="float">
+                            <h2>A LAN WALKER - FADED</h2>
+                            <p>You were the shadow to my light
+                                Did you feel us?
+                                Another star, you fade away
+                                Afraid our aim is out of sight
+                                Wanna see us alight</p>
+                            <button class="btn" id="btn">PLAY</button>
+                            <!-- <button class="btn">follow</button> -->
+                        </div>
+
+                    </div>
+                    <img src="/img/arjit/arjit_bg.png" alt="" id="alan">
+                </div>
+
+                <div class="center-bottom">
+
+                    <div class="center-bottom-top-songs" id="cbts">
+                        <div class="songs">
+                            <h4>songs</h4>
+                            <div class="moveicons">
+                                <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                                <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                            </div>
+                        </div>
+
+                        <div class="centersongs">
+                            <div class="image-container" id="image_container">
+
+
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="1"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="2"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="3"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="4"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="5"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="6"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="7"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="8"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="9"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="10"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="11"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="12"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="13"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/img/1.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill" id="14"></i>
+                                    <div class="audio-name-center">
+                                        <div class="audio-name-center">
+                                            Faded
+                                        </div>
+                                        <div class="singer" id="singer">
+                                            Alan walker
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="center-bottom-bottom-songs">
+
+                        <div class="songs">
+                            <h4>Artists</h4>
+                            <div class="moveicons">
+                                <i class="bi bi-arrow-left-short" id="pop_art_left"></i>
+                                <i class="bi bi-arrow-right-short" id="pop_art_right"></i>
+                            </div>
+                        </div>
+
+                        <div class="centersongs2">
+
+                            <div class="image-container2" id="image_container2">
+
+
+
+                                <div class="image">
+                                    <img src="/Artists/guru.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            guru
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/alan.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            alan
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/arjit.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            arjit
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/atif.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            atif
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/ed.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            ed shereen
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/marsh.png" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            marshmello
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/guru.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            guru
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/maroon.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            maroon
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/harry.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            Harry  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/shankar.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            Shankar
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/justin.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            justin
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/akhil.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            Akhil
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="image">
+                                    <img src="/Artists/dhvani.jpg" alt="" height="100px">
+                                    <i class="bi bi-play bi-play-fill"></i>
+                                    <div class="audio-name-center">
+                                        <div class="singer" id="singer">
+                                            Dhvani
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="item" class="right-side" id="right-side">
+                <div class="right" id="right-top">
+                    <div class="new">
+                        <h4 class="your">NEW RELEASED</h4>
+                        <span>see all</span>
+                    </div>
+
+                    <div class="images">
+                        <div class="audio-image image-right">
+                            <img src="/img/15.jpg" alt="" height="50px" >
+                            <i class="bi bi-play bi-play-fill" id="15" ></i>
+                            <!-- <i class="bi bi-pause-circle"></i> -->
+
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Faded
+                            </div>
+                            <div class="singer" id="singer">
+                                Alan walker
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <div class="audio-image image-right">
+                            <img src="/img/16.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill " id="16"></i>
+                            <!-- <i class="bi bi-pause-circle"></i> -->
+
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Faded
+                            </div>
+                            <div class="singer" id="singer">
+                                Alan walker
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images">
+                        <div class="audio-image image-right">
+                            <img src="/img/17.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill" id="17"></i>
+                            <!-- <i class="bi bi-pause-circle"></i> -->
+
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Faded
+                            </div>
+                            <div class="singer" id="singer">
+                                Alan walker
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right" id="right-bottom">
+
+                    <div class="new">
+                        <h4 class="your">TOP ARTISTS</h4>
+                    </div>
+
+                    <div class="images images-right">
+                        <div class="number">
+                            1
+                        </div>
+                        <div class="audio-image image-right image-bottom">
+                            <img src="/Artists/alan.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Alan walker
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="images images-right">
+                        <div class="number">
+                            2
+                        </div>
+                        <div class="audio-image image-right image-bottom">
+                            <img src="/Artists/marsh.png" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Marshmello
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="images images-right">
+                        <div class="number">
+                            3
+                        </div>
+                        <div class="audio-image image-right image-bottom">
+                            <img src="/Artists/justin.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Justin Bieber
+                            </div>
+                        </div>
+                    </div>
+                    <div class="images images-right">
+                        <div class="number">
+                            4
+                        </div>
+                        <div class="audio-image image-right image-bottom">
+                            <img src="/Artists/arjit.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Arjit Singh
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="images images-right">
+                        <div class="number">
+                            5
+                        </div>
+                        <div class="audio-image image-right image-bottom">
+                            <img src="/Artists/atif.jpg" alt="" height="50px">
+                            <i class="bi bi-play bi-play-fill"></i>
+                        </div>
+                        <div class="audio-name-right">
+                            <div class="audio-name">
+                                Atif Aslam
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- this is music-slider -->
+        <div class="slider">
+            <div class="wave" id="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <div class="audio-image">
+                <img src="/img/1.jpg" alt="" height="60px" id="master_img">
+            </div>
+            <div class="audio-name-main ">
+                <div class="audio-name" id="maintitle">
+                    Faded
+                    <div class="singer" id="singer">
+                    </div>
+                </div>
+            </div>
+
+            <div class="changer">
+                <div class="previos" id="previos">
+                    <i class="bi bi-skip-start"></i>
+                </div>
+                <div class="play">
+                    <i class="bi bi-play-fill" id="play"></i>
+                </div>
+                <div class="next" id="next">
+                    <i class="bi bi-skip-end"></i>
+                </div>
+                <div class="like" >
+                    <i class="bi bi-heart icon-red" id="like" ></i>
+                </div>
+            </div>
+
+            <div class="music-slider" id="music-slider">
+                <div class="time" id="time_start">0.00</div>
+                <div class="bar">
+
+                    <input type="range" id="seek">
+                    <div class="bar2"></div>
+                    <div class="dot" id="dot"></div>
+
+                </div>
+                <div class="time" id="time_end">3.44</div>
+            </div>
+            <div class="audio-slider" id="audio-slider">
+                <div class="vol">
+                    <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                    <input type="range" id="vol">
+                    <div class="val_bar"></div>
+                    <div class="dot" id="vol_dot"></div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="arjit.js"></script>
+</body>
+
+</html>
